@@ -2,68 +2,389 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd108f9-98b2-4b07-b076-f4d0bc634074" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Ramudroid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ramudroid.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../computer_vision/image_processing/colorspace_rgb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../computer_vision/image_processing/colorspace_rgb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/motion_live_stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/motion_live_stream/motion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/motion_live_stream/motion-mmalcam.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/motion_live_stream/motion.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/PhpSerial.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/arduinoread.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/arduinowrite.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/perform3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/perform4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/perform5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/perform6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/perform7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/serailread2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/serialread.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/testgpio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/testphp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/php_webservices_serialcomm/ultrasonic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/python_uart/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/python_uart/uart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/python_webservices_gpio/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/python_webservices_gpio/move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/python_webservices_gpio/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/python_webservices_gpio/status.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/python_webservices_gpio/template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/MIT-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/bin/ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/argparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/clean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/init.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/listmodels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/preproc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/serial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/commands/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/environment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/exc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/make/Makefile.common.jinja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/make/Makefile.deps.jinja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/make/Makefile.jinja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/make/Makefile.sketch.jinja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/templates/blink/lib/.holder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/templates/blink/manifest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/templates/blink/src/sketch.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/templates/empty/lib/.holder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/templates/empty/manifest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/templates/empty/src/sketch.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/lib.linux-x86_64-2.7/ino/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/build/scripts-2.7/ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/dist/ino-0.3.7-py2.7.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/doc/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/doc/_static/ino.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/doc/_static/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/doc/_static/ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/doc/_templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/doc/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/doc/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/doc/quickstart.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/argparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/clean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/init.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/listmodels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/preproc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/serial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/commands/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/environment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/exc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/make/Makefile.common.jinja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/make/Makefile.deps.jinja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/make/Makefile.jinja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/make/Makefile.sketch.jinja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/templates/blink/lib/.holder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/templates/blink/manifest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/templates/blink/src/sketch.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/templates/empty/lib/.holder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/templates/empty/manifest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/templates/empty/src/sketch.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/ino/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outdated_code/toolkit_arduino_hardware/tests/environment_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/flags/asia_pacific.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/flags/australia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/flags/brazil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/flags/china.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/flags/germany.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/flags/ireland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/flags/japan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/flags/usa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/com.amazonaws.eclipse.core/regions/regions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.cdt.core/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.amazonaws.eclipse.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.configurator.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.frameworks.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/26522e0d83a422eed93329ece7565cfc/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/8a6b2a03ce4c486cc255ec1ef2bfd448/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/8a6b2a03ce4c486cc255ec1ef2bfd448/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/8a6b2a03ce4c486cc255ec1ef2bfd448/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/nexus/8a6b2a03ce4c486cc255ec1ef2bfd448/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.5.0.20140606-0033.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.hibernate.eclipse/hibernate-tools.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.springframework.ide.eclipse.aop.core/.state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/metadata/.state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/properties/.state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/apidoc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/api_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/api_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/api_project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/api_project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/img/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/img/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/pt_br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/locales/zh_cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/utils/handlebars_helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/utils/send_sample_request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/diff_match_patch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/handlebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-apollo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-clj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-hs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-lisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-llvm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-matlab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-mumps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-rd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-scala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-vb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-vhdl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-wiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-xq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/lang-yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/prettify/run_prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/require.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/semver.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/doc/vendor/webfontloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/footer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/header.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/img/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/img/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/locales/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/locales/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/locales/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/locales/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/locales/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/locales/pt_br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/locales/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/locales/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/restserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/utils/handlebars_helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/utils/send_sample_request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/diff_match_patch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/handlebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-apollo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-clj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-hs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-lisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-llvm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-matlab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-mumps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-rd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-scala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-vb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-vhdl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-wiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-xq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/lang-yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/prettify/run_prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/api/vendor/require.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/capturefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/cpuinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/css/ar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/css/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/css/webrtcpagestyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/csv/geoipcity.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/csv/iManufacture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/csv/location.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/csv/log.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/cv.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/img/Ramudroid blacknwhite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/img/ramudroid_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/img/ramudroid_logo_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/locale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/pt_br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/locales/zh_cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/lrkey.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/meminfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/minScripts/mainScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/minScripts/mainStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/minScripts/presentationScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/property.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/screenshots/webconsole1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/BandwidthHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/cpudata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/directionscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/edgedetection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/firebase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/geo-calc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/getConnectionStats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/loaddatacsv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/readSerialData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/readcsv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/referenceAddress.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/requestAnimationFrame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/requestanimationframedirection2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/rpiramudroid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/scripts/webrtc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/sslcert/ca.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/sslcert/server.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/sslcert/server.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/webrtcscripts/cv.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/webrtcscripts/cv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/webrtcscripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/webrtcscripts/models/hogcascade_pedestrians.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/webrtcscripts/models/person.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/webrtcscripts/objectdetection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/webrtcscripts/signalling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrobocontrol/widget.html" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpi_object_detection_webrtc_stream/screenshot/Screenshot 2019-09-14 at 11.07.45 AM.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpi_object_detection_opencv_python/image_object_detection/imgs/4.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outdated_code/motion_live_stream/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webrobocontrol/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webservices_rpi_arduino_comm/imgs/Screenshot 2019-10-12 at 1.08.54 PM.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="530">
-                <caret line="117" column="3" selection-start-line="117" selection-start-column="3" selection-end-line="117" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,6 +465,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectId" id="27ThiaIgLU4OtCLaOe5gmKBwBDJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -170,8 +492,13 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -188,18 +515,7 @@
       <recent name="$PROJECT_DIR$/../computer_vision/object_detection_imageai" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -237,6 +553,17 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="LuaJ" order="3" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../computer_vision/draw_shapes/lines.py">
